@@ -1,21 +1,46 @@
-# cn3DaQTr
+# Game of War (Simple version)!⚠️🪖
 
-Quick start:
+- This is a simplified version of Game of War with a deck
+- Worked with external API to get the deck and draw the cards
+- Made this project to boost my Async JavaScript Knowledge
 
-```
-$ npm install
-$ npm start
-````
+### About the Game🃏
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+- The game will have 2 players, one is the computer and the other is the user
+- Initially a new deck should be loaded to start the game
+- Once the deck is ready, user can click the draw button which draws 2 cards one for computer and one for the user itself
+- Based on the cards drawn score will be counted
+- Cards can be drawn until the deck is empty. The number of cards are indicated on the screen
+- After all the cards are drawn, the player with majority round wins takes the game!
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+### Tech Used ⚙️
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- HTML
+- CSS
+- JavaScript
+- External API - ```https://apis.scrimba.com/deckofcards/api/deck/new/shuffle/```
+
+### Deployed at
+
+- https://shanmukh-war.vercel.app/
+
+### Screenshots of app 📷
+
+#### _Initial screen_
+
+![image](https://github.com/Shanmukh459/War/assets/52078988/eb416967-d74b-4041-9739-6fb780e98f80)
+
+#### _After the deck is drawn_
+
+![image](https://github.com/Shanmukh459/War/assets/52078988/d2360408-ae40-45c0-b373-dd7600c11995)
+
+#### _After the cards are drawn_
+
+![image](https://github.com/Shanmukh459/War/assets/52078988/d8d9dfea-0dbb-4f49-9347-9092113172aa)
+
+#### _After the game ends_
+
+![image](https://github.com/Shanmukh459/War/assets/52078988/ed7757b0-76b9-48d1-a0f5-12798371dd0e)
+
 
 Happy Coding!
